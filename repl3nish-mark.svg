@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-label="REPL3NISH mark">
+  <defs>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="12%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#e8eef7"/>
+      <stop offset="100%" stop-color="#aebfd4"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#79bfff"/>
+      <stop offset="40%" stop-color="#3b82f0"/>
+      <stop offset="100%" stop-color="#1a4db8"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5aa4ff"/>
+      <stop offset="100%" stop-color="#1c54c4"/>
+    </linearGradient>
+    <radialGradient id="backlight" cx="50%" cy="46%" r="46%">
+      <stop offset="0%" stop-color="#5aa8ff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#2f6fe0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="160" cy="148" rx="118" ry="98" fill="url(#backlight)"/>
+
+  <rect x="58" y="168" width="26" height="62" rx="4" fill="url(#bar)"/>
+  <rect x="92" y="142" width="26" height="88" rx="4" fill="url(#bar)"/>
+  <rect x="126" y="114" width="26" height="116" rx="4" fill="url(#bar)"/>
+  <rect x="160" y="82" width="28" height="148" rx="4" fill="url(#bar)"/>
+
+  <path
+    fill="url(#silver)"
+    d="
+      M38 74
+      L12 88
+      L38 102
+      H148
+      C188 102 214 126 214 158
+      C214 190 188 212 148 212
+      H120
+      V238
+      H148
+      C204 238 246 198 246 158
+      C246 110 202 70 148 70
+      H38
+      Z
+    "
+  />
+
+  <path
+    fill="url(#leg)"
+    d="M166 200 L246 288 L214 308 L138 218 Z"
+  />
+</svg>

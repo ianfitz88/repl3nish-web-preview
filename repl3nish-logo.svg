@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 720" role="img" aria-label="REPL3NISH">
+  <defs>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="12%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#e8eef7"/>
+      <stop offset="100%" stop-color="#aebfd4"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#79bfff"/>
+      <stop offset="40%" stop-color="#3b82f0"/>
+      <stop offset="100%" stop-color="#1a4db8"/>
+    </linearGradient>
+    <linearGradient id="leg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5aa4ff"/>
+      <stop offset="100%" stop-color="#1c54c4"/>
+    </linearGradient>
+    <radialGradient id="backlight" cx="50%" cy="36%" r="40%">
+      <stop offset="0%" stop-color="#5aa8ff" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#2f6fe0" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="320" cy="240" rx="200" ry="160" fill="url(#backlight)"/>
+
+  <!-- bars form the R stem -->
+  <rect x="176" y="262" width="32" height="74" rx="4" fill="url(#bar)"/>
+  <rect x="218" y="230" width="32" height="106" rx="4" fill="url(#bar)"/>
+  <rect x="260" y="196" width="32" height="140" rx="4" fill="url(#bar)"/>
+  <rect x="302" y="156" width="34" height="180" rx="4" fill="url(#bar)"/>
+
+  <!-- silver top bowl only (no left stem) -->
+  <path
+    fill="url(#silver)"
+    d="
+      M150 148
+      L116 164
+      L150 180
+      H286
+      C336 180 368 210 368 250
+      C368 290 336 318 286 318
+      H250
+      V350
+      H286
+      C356 350 408 300 408 250
+      C408 190 352 144 286 144
+      H150
+      Z
+    "
+  />
+
+  <!-- blue leg from tallest bar -->
+  <path
+    fill="url(#leg)"
+    d="M310 310 L408 424 L368 448 L274 332 Z"
+  />
+
+  <text
+    x="320" y="536" text-anchor="middle"
+    font-family="Segoe UI, Arial, Helvetica, sans-serif"
+    font-size="56" font-weight="700" letter-spacing="11"
+    fill="#f2f6fb"
+  >REPL<tspan fill="#3f8cff">3</tspan>NISH</text>
+
+  <text
+    x="320" y="582" text-anchor="middle"
+    font-family="Segoe UI, Arial, Helvetica, sans-serif"
+    font-size="17" font-weight="600" letter-spacing="4.2"
+    fill="#4f92ff"
+  >STOCK. PLANNED. PERFORMANCE.</text>
+</svg>
